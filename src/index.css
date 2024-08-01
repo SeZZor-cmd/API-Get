@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed; /* Ensures fixed table layout */
+}
+
+thead {
+  background-color: #f1f1f1;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+.container {
+  width: 100%;
+  overflow-x: auto;
+}
